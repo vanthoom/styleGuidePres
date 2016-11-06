@@ -1,5 +1,5 @@
 # styleGuidePres
-h1 just a short presentation about style guide
+## just a short presentation about style guide
 # styleGuidePres
 * npm i
 * grunt 
