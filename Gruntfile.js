@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     reveal: {
     	styleGuide: {
 	    	options: {
-	    		// theme: 'beige'
+	    		theme: 'night'
 	    	}
     	}
     },
