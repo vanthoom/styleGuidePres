@@ -1,38 +1,55 @@
 section.fragment
     h3 Back in the days...
-    h4 ... jan 2014
+    h4 ... jan 2014 > introducing Bluesky
     aside.notes
         ul
             li we started a project
-            li acted as our:
-            li prototype and (js and css) production framework
+            li It's our:
+            ul
+                li html prototyping
+                li js and css production framework
+                li js templates
 
 section.fragment
-    h3 So what's the problem?
+    h3 So what's your problem?
     img(src='../assets/lego1.jpg')
     aside.notes
         ul
-            li.left-align chaos / ux / implementation
-            li.left-align lack of documentation
-            li.left-align avoid chaos and repetion in implementation
+            li chaos / ux / implementation
+            li lack of documentation
+            li avoid chaos and repetion in implementation
+            li ease ramp up
+            li concentrate on
 
 section
-    h3 Do you know something like this?
+    //h3 Do you know something like this?
     img(src='../assets/messurements.png')
     aside.notes
         ul
-            li.left-align resource intense
+            li facing same questions all time
+            li what font, color, margins, paddings, width, height
+            li resource / communication intense
 
 section
-    h3 We wanted...
-    .fragment
+    section.fragment
+        h3 We wanted...
+        aside.notes
+            ul
+                li build modules and complex page templates
+                li re-use modules
+                li track dependencies
+                li Eat your own dog food
+    section.fragment
+        h3 We've chosen...
         h4 ... atomic design
+        small(style="margin-top: 50px;") but with:
         p styles, elements, components, modules, templates, screens
+        p(style='position:absolute; right: -100px; bottom: -260px;') &laquo;Atomic design is methodology for creating design systems.&raquo;
+        p(style='position:absolute; right: -100px; bottom: -300px;')
+            small (Brad Frost)
+        aside.notes
+            ul
+                li Atomic design is methodology for creating design systems.
+                li Atomic design(like) aproach
+                li build a tool on our own
 
-    aside.notes
-        ul
-            li Atomic design(like) aproach
-            li Eat your own dog food
-            li build modules and complex page templates
-            li includes
-            li track dependencies
